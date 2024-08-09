@@ -16,6 +16,11 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="../statics/css/styles.css" rel="stylesheet" />
+        <style>
+            .text-justify {
+                text-align: justify;
+            }
+        </style>
     </head>
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
@@ -47,22 +52,72 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Project Name 1</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                            <h2 class="fw-bolder">NamakBan</h2>
+                                            <p>This app allows users to book salt and blood pressure measurements, track their daily steps, and manage their medication with reminders. Users can view their medication schedule on a calendar, monitor blood pressure trends over days, weeks, and months, and generate detailed PDF reports for selected months.</p>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img class="img-fluid" src="/statics/assets/namakban.jpeg" alt="..." />
                                     </div>
                                 </div>
                             </div>
                             <!-- Project Card 2-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0">
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Project Name 2</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                            <h2 class="fw-bolder">MediBot</h2>
+                                            <p>MediBot is a virtual clinic app powered by Gemini AI, designed to enhance healthcare and wellness. It offers personalized medical advice, symptom tracking, and wellness tips, making it easier for users to manage their health from the comfort of their homes. With MediBot, you can access timely healthcare support, schedule virtual consultations, and receive AI-driven recommendations tailored to your unique needs.</p>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img class="img-fluid" src="/statics/assets/medibot.png" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 3-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Hotel Reservation System</h2>
+                                            <p>Our web application is a dedicated platform for company personnel to reserve hotel rooms efficiently. Built with Node.js and MongoDB, it ensures a streamlined booking process, enhancing transaction speed and database performance. The application is designed to be user-friendly, accommodating both desktop and mobile devices. It leverages the MVC architecture for code organization and Getx State Management for state management, ensuring a smooth and intuitive user experience.</p>
+                                        </div>
+                                        <img class="img-fluid" src="/statics/assets/reservation.png" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 4-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Judicatory expert wage calculator</h2>
+                                            <p>This app helps calculate the wages of judicial experts based on the latest regulations for the year. It's designed to simplify the process of determining how much these experts should be paid according to the current rules and standards. With this app, users can input relevant information and quickly get accurate calculations for wages, making it easier to ensure fairness and compliance with legal requirements in compensating judicial experts for their work.</p>
+                                        </div>
+                                        <img class="img-fluid" src="/statics/assets/karshenasi.jpeg" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 5-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Shopping App</h2>
+                                            <p>Backend: It uses Node.js and Express.js. Node.js is the JavaScript runtime for server-side code, and Express.js simplifies routing and request handling.
+                                                Frontend: Flutter, a UI framework by Google, powers your app. You’re also using BLoC (Business Logic Component) for state management.
+                                                Database: MongoDB, a NoSQL database, stores your app’s data.</p>
+                                        </div>
+                                        <img class="img-fluid" src="/statics/assets/shop.jpeg" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 6-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">NFT Guide</h2>
+                                            <p  >Welcome to our application, a vibrant and engaging platform for exploring the world of NFTs. Launched in October 2022, we're committed to making NFT education accessible and enjoyable for everyone. Our application offers a comprehensive, user-friendly guide to understanding NFTs, covering everything from the basics to advanced concepts.</p>
+                                        </div>
+                                        <img class="img-fluid" src="/statics/assets/nft.jpg" alt="..." />
                                     </div>
                                 </div>
                             </div>
@@ -74,30 +129,12 @@
             <section class="py-5 bg-gradient-primary-to-secondary text-white">
                 <div class="container px-5 my-5">
                     <div class="text-center">
-                        <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.jet">Contact me</a>
+                        <h2 class="display-4 fw-bolder mb-4">Let's build something Great</h2>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="/contact">Contact me</a>
                     </div>
                 </div>
             </section>
         </main>
-        <!-- Footer-->
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="../statics/js/scripts.js"></script>
+
     </body>
 </html>
