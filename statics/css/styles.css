@@ -1960,6 +1960,19 @@ progress {
     -webkit-overflow-scrolling: touch;
   }
 }
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+  .card img {
+    width: 400%;
+    height: 400px;
+    object-fit: contain ;
+  }
+  .card .p-5 {
+    padding: 20px;
+  }
+}
 .form-label {
   margin-bottom: 0.5rem;
 }
@@ -1971,6 +1984,7 @@ progress {
   font-size: inherit;
   line-height: 1.5;
 }
+
 
 .col-form-label-lg {
   padding-top: calc(0.5rem + 1px);

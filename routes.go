@@ -11,9 +11,9 @@ func routes() http.Handler {
 	mux := chi.NewRouter()
 
 	mux.Get("/", handlers.Home)
-	mux.Get("/contact", handlers.Contact)
 	mux.Get("/projects", handlers.Projects)
 	mux.Get("/resume", handlers.Resume)
+	mux.Get("/download", handlers.Download)
 	fileServer := http.FileServer(http.Dir("./statics"))
 	mux.Handle("/statics/*", http.StripPrefix("/statics/", fileServer))
 

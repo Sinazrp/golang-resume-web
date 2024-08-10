@@ -11,7 +11,6 @@ var views = jet.NewSet(
 	jet.NewOSFileSystemLoader("./html"),
 
 	jet.InDevelopmentMode(),
-
 )
 
 // Home displays the home page with some sample data
@@ -40,12 +39,6 @@ func Home(w http.ResponseWriter, r *http.Request) {
 
 }
 
-func Contact(w http.ResponseWriter, r *http.Request) {
-	err := renderPage(w, "contact.jet", nil)
-	if err != nil {
-		_, _ = fmt.Fprint(w, "Error executing template:", err)
-	}
-}
 func Projects(w http.ResponseWriter, r *http.Request) {
 	err := renderPage(w, "projects.jet", nil)
 	if err != nil {
@@ -57,6 +50,9 @@ func Resume(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		_, _ = fmt.Fprint(w, "Error executing template:", err)
 	}
+}
+func Download(w http.ResponseWriter, r *http.Request) {
+	http.ServeFile(w, r, "statics/assets/resume.pdf")
 }
 
 // renderPage renders the page using Jet templates

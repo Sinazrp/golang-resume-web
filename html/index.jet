@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Personal - Start Bootstrap Theme</title>
+        <title>Sina Zerehpoosh profile</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="../statics/assets/favicon.ico" />
         <!-- Custom Google font-->
@@ -29,7 +29,7 @@
                             <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="/resume">Resume</a></li>
                             <li class="nav-item"><a class="nav-link" href="/projects">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -189,6 +189,12 @@
                                     <a class="text-gradient" href="https://www.linkedin.com/in/sina-zerehpoosh/"><i class="bi bi-linkedin"></i></a>
                                     <a class="text-gradient" href="https://github.com/Sinazrp"><i class="bi bi-github"></i></a>
                                 </div>
+                                <div class="d-flex justify-content-center fs-4 gap-4 mt-4">
+                                    <a class="text-gradient" ><i class="bi bi-telephone"></i>&#32 09302957659</a>
+                                    <a class="text-gradient " ><i class="bi bi-envelope"></i>&#32 Sina.zrp@gmail.com</a>
+
+                                </div>
+
                             </div>
                         </div>
                     </div>
