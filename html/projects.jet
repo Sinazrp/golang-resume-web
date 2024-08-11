@@ -21,6 +21,7 @@
             .text-justify {
                 text-align: justify;
             }
+
         </style>
     </head>
     <body class="d-flex flex-column h-100 bg-light">
@@ -132,12 +133,12 @@
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
                                             <h2 class="fw-bolder">NFT Guide</h2>
-                                            <p  >Welcome to our application, a vibrant and engaging platform for exploring the world of NFTs. Launched in October 2022, we're committed to making NFT education accessible and enjoyable for everyone. Our application offers a comprehensive, user-friendly guide to understanding NFTs, covering everything from the basics to advanced concepts.</p>
+                                            <p  class="proj-card">Welcome to our application, a vibrant and engaging platform for exploring the world of NFTs. Launched in October 2022, we're committed to making NFT education accessible and enjoyable for everyone. Our application offers a comprehensive, user-friendly guide to understanding NFTs, covering everything from the basics to advanced concepts.</p>
                                             <a href="https://github.com/Sinazrp/nft_guide" class="text-decoration-none text-blue">
                                                 <p class="text-start ">See more detail</p>
                                             </a>
                                         </div>
-                                        <img class="img-fluid" src="/statics/assets/nft.jpg" alt="..." />
+<!--                                        <img class="img-fluid" src="/statics/assets/nft.jpg" alt="..." />-->
                                     </div>
                                 </div>
                             </div>

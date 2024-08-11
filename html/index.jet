@@ -190,8 +190,8 @@
                                     <a class="text-gradient" href="https://github.com/Sinazrp"><i class="bi bi-github"></i></a>
                                 </div>
                                 <div class="d-flex justify-content-center fs-4 gap-4 mt-4">
-                                    <a class="text-gradient" ><i class="bi bi-telephone"></i>&#32 09302957659</a>
-                                    <a class="text-gradient " ><i class="bi bi-envelope"></i>&#32 Sina.zrp@gmail.com</a>
+                                    <a class="text-gradient-footer" ><i class="bi bi-telephone"></i>&#32 09302957659</a>
+                                    <a class="text-gradient-footer" ><i class="bi bi-envelope"></i>&#32 Sina.zrp@gmail.com</a>
 
                                 </div>
 
