@@ -11773,15 +11773,15 @@ html {
 }
 
 .proj-card {
-
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 @media (max-width: 764px) {
   .proj-card {
-    font-size: 0.74rem;
-    text-align: justify;
-    word-break: break-word;
-    hyphens: auto;
+    font-size: 0.75rem;
+
 
 
     

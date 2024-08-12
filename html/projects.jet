@@ -46,7 +46,7 @@
                     <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                         <div class="card-body p-0">
                             <div class="d-flex align-items-center">
-                                <div class="p-5">
+                                <div class="p-4">
                                     <h2 class="fw-bolder">NamakBan</h2>
                                     <p class="proj-card">This app allows users to book salt and blood pressure measurements, track their daily steps, and manage their medication with reminders. Users can view their medication schedule on a calendar, monitor blood pressure trends over days, weeks, and months, and generate detailed PDF reports for selected months.</p>
                                     <a href="https://github.com/WidgetsBag/namakban-preview/" class="text-decoration-none text-blue">
@@ -62,7 +62,7 @@
                     <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                         <div class="card-body p-0">
                             <div class="d-flex align-items-center">
-                                <div class="p-5">
+                                <div class="p-4">
                                     <h2 class="fw-bolder">MediBot</h2>
                                     <p class="proj-card">MediBot is a virtual clinic app powered by Gemini AI, designed to enhance healthcare and wellness. It offers personalized medical advice, symptom tracking, and wellness tips, making it easier for users to manage their health from the comfort of their homes. With MediBot, you can access timely healthcare support, schedule virtual consultations, and receive AI-driven recommendations tailored to your unique needs.</p>
                                     <a href="https://github.com/Sinazrp/medibot-preview" class="text-decoration-none text-blue">
@@ -77,7 +77,7 @@
                     <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                         <div class="card-body p-0">
                             <div class="d-flex align-items-center">
-                                <div class="p-5">
+                                <div class="p-4">
                                     <h2 class="fw-bolder">Hotel Reservation System</h2>
                                     <p class="proj-card">Our web application is a dedicated platform for company personnel to reserve hotel rooms efficiently. Built with Node.js and MongoDB. The application is designed to be user-friendly, accommodating both desktop and mobile devices. It leverages the MVC architecture for code organization and Getx State Management for state management, ensuring a smooth and intuitive user experience.</p>
                                     <a href="https://github.com/WidgetsBag/Reservation_Preview" class="text-decoration-none text-blue">
@@ -92,7 +92,7 @@
                     <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                         <div class="card-body p-0">
                             <div class="d-flex align-items-center">
-                                <div class="p-5">
+                                <div class="p-4">
                                     <h2 class="fw-bolder">Judicatory expert wage calculator</h2>
                                     <p class="proj-card">This app helps calculate the wages of judicial experts based on the latest regulations for the year. It's designed to simplify the process of determining how much these experts should be paid according to the current rules and standards.</p>
                                     <a href="https://github.com/WidgetsBag/Karshenasi-preview" class="text-decoration-none text-blue">
@@ -107,7 +107,7 @@
                     <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                         <div class="card-body p-0">
                             <div class="d-flex align-items-center">
-                                <div class="p-5">
+                                <div class="p-4">
                                     <h2 class="fw-bolder ">Shopping App</h2>
                                     <p class="proj-card">Backend: It uses Node.js and Express.js. Node.js is the JavaScript runtime for server-side code, and Express.js simplifies routing and request handling.
                                         Frontend: Flutter, a UI framework by Google, powers your app. You’re also using BLoC (Business Logic Component) for state management.
@@ -124,7 +124,7 @@
                     <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                         <div class="card-body p-0">
                             <div class="d-flex align-items-center">
-                                <div class="p-5">
+                                <div class="p-4">
                                     <h2 class="fw-bolder">NFT Guide</h2>
                                     <p  class="proj-card ">Welcome to our application, a vibrant and engaging platform for exploring the world of NFTs. Launched in October 2022, we're committed to making NFT education accessible and enjoyable for everyone. Our application offers a comprehensive, user-friendly guide to understanding NFTs, covering everything from the basics to advanced concepts.</p>
                                     <a href="https://github.com/Sinazrp/nft_guide" class="text-decoration-none text-blue">
