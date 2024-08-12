@@ -11796,3 +11796,8 @@ html {
   }
 
 }
+.text-justify{
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+}
