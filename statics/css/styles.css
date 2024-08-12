@@ -4218,6 +4218,7 @@ textarea.form-control-lg {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
+
 }
 
 .card-title {
@@ -11772,6 +11773,26 @@ html {
 }
 
 .proj-card {
-  font-size: 0.75rem;
-  text-align: justify;
+
+}
+
+@media (max-width: 764px) {
+  .proj-card {
+    font-size: 0.74rem;
+    text-align: justify;
+    word-break: break-word;
+    hyphens: auto;
+
+
+    
+  }
+}
+.project-img {
+
+}
+@media (max-width:764px ) {
+  .project-img {
+ display: none;
+  }
+
 }
