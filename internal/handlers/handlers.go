@@ -52,6 +52,8 @@ func Resume(w http.ResponseWriter, r *http.Request) {
 	}
 }
 func Download(w http.ResponseWriter, r *http.Request) {
+	filename := "Zerehpoosh_resume.pdf"
+	w.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=\"%s\"", filename))
 	http.ServeFile(w, r, "statics/assets/resume.pdf")
 }
 
